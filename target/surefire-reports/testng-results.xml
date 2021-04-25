@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119832" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:53:19 IST">
+    <groups>
+    </groups>
+    <test name="EmpRoleTest" duration-ms="119832" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:53:19 IST">
+      <class name="EmpRoleTestCase.EmpApplyLeaveTestCase">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="setupExtentReport" is-config="true" duration-ms="123" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="setUp" is-config="true" duration-ms="7919" started-at="2021-02-26T18:51:57 IST" finished-at="2021-02-26T18:52:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLeaveApplied(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="verifyLeaveApplied" duration-ms="4907" started-at="2021-02-26T18:52:05 IST" data-provider="ApplyLeaveRequest" finished-at="2021-02-26T18:52:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sick]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Firstname_56 LastName_56]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Leave]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Your leave request has been submitted successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeaveApplied -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="tearDown" is-config="true" duration-ms="610" started-at="2021-02-26T18:52:10 IST" finished-at="2021-02-26T18:52:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLeaveApplied status=SUCCESS method=EmpApplyLeaveTestCase.verifyLeaveApplied(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="setUp" is-config="true" duration-ms="8648" started-at="2021-02-26T18:52:10 IST" finished-at="2021-02-26T18:52:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCancelLeaveRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="verifyCancelLeaveRequest" duration-ms="2507" started-at="2021-02-26T18:52:19 IST" data-provider="CancelLeaveRequest" finished-at="2021-02-26T18:52:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sick]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your leave request has been canceled successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelLeaveRequest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="tearDown" is-config="true" duration-ms="611" started-at="2021-02-26T18:52:21 IST" finished-at="2021-02-26T18:52:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelLeaveRequest status=SUCCESS method=EmpApplyLeaveTestCase.verifyCancelLeaveRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1]" name="endReport" is-config="true" duration-ms="225" started-at="2021-02-26T18:53:19 IST" finished-at="2021-02-26T18:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- EmpRoleTestCase.EmpApplyLeaveTestCase -->
+      <class name="EmpRoleTestCase.LoginTestCase">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e]" name="setupExtentReport" is-config="true" duration-ms="3" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e]" name="startBrowser" is-config="true" duration-ms="4103" started-at="2021-02-26T18:51:20 IST" finished-at="2021-02-26T18:51:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="assertEMPusername()[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e]" name="assertEMPusername" duration-ms="4875" started-at="2021-02-26T18:51:24 IST" finished-at="2021-02-26T18:51:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertEMPusername -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e]" name="tearDown" is-config="true" duration-ms="608" started-at="2021-02-26T18:51:28 IST" finished-at="2021-02-26T18:51:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertEMPusername status=SUCCESS method=LoginTestCase.assertEMPusername()[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:EmpRoleTestCase.LoginTestCase@6e06451e]" name="endReport" is-config="true" duration-ms="28" started-at="2021-02-26T18:53:19 IST" finished-at="2021-02-26T18:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- EmpRoleTestCase.LoginTestCase -->
+      <class name="EmpRoleTestCase.EmpApplyWFHTestCase">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="setupExtentReport" is-config="true" duration-ms="2" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="setUp" is-config="true" duration-ms="8422" started-at="2021-02-26T18:52:22 IST" finished-at="2021-02-26T18:52:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyApplyWFH(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="verifyApplyWFH" duration-ms="7383" started-at="2021-02-26T18:52:31 IST" data-provider="ApplyWFHRequest" finished-at="2021-02-26T18:52:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9841568382]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Firstname_56 LastName_56]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[WorkFromHome]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Your Work From Home request has been submitted successfully.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyWFH -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="tearDown" is-config="true" duration-ms="617" started-at="2021-02-26T18:52:38 IST" finished-at="2021-02-26T18:52:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplyWFH status=SUCCESS method=EmpApplyWFHTestCase.verifyApplyWFH(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="setUp" is-config="true" duration-ms="8613" started-at="2021-02-26T18:52:39 IST" finished-at="2021-02-26T18:52:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCancelWFHRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="verifyCancelWFHRequest" duration-ms="3774" started-at="2021-02-26T18:52:47 IST" data-provider="CancelWFHRequest" finished-at="2021-02-26T18:52:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Waiting for Reporting approval]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mon, Jan 18, 2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your request has been cancelled successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelWFHRequest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="tearDown" is-config="true" duration-ms="618" started-at="2021-02-26T18:52:51 IST" finished-at="2021-02-26T18:52:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelWFHRequest status=SUCCESS method=EmpApplyWFHTestCase.verifyCancelWFHRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472]" name="endReport" is-config="true" duration-ms="27" started-at="2021-02-26T18:53:19 IST" finished-at="2021-02-26T18:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- EmpRoleTestCase.EmpApplyWFHTestCase -->
+      <class name="EmpRoleTestCase.EmpserviceTestCase">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="setupExtentReport" is-config="true" duration-ms="3" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="setUp" is-config="true" duration-ms="7751" started-at="2021-02-26T18:51:29 IST" finished-at="2021-02-26T18:51:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enableNewService(java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="enableNewService" duration-ms="916" started-at="2021-02-26T18:51:37 IST" data-provider="ServiceCheckboxName" finished-at="2021-02-26T18:51:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apply Out Of Office]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableNewService -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="tearDown" is-config="true" duration-ms="620" started-at="2021-02-26T18:51:38 IST" finished-at="2021-02-26T18:51:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enableNewService status=SUCCESS method=EmpserviceTestCase.enableNewService(java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpserviceTestCase@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="setUp" is-config="true" duration-ms="8014" started-at="2021-02-26T18:51:39 IST" finished-at="2021-02-26T18:51:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyserviceEnabled(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="verifyserviceEnabled" duration-ms="46" started-at="2021-02-26T18:51:47 IST" data-provider="VerifyServiceEnabled" finished-at="2021-02-26T18:51:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apply Out Of Office]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apply Out Of Office/Work From Home]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyserviceEnabled -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="tearDown" is-config="true" duration-ms="598" started-at="2021-02-26T18:51:47 IST" finished-at="2021-02-26T18:51:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyserviceEnabled status=SUCCESS method=EmpserviceTestCase.verifyserviceEnabled(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpserviceTestCase@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="setUp" is-config="true" duration-ms="8015" started-at="2021-02-26T18:51:47 IST" finished-at="2021-02-26T18:51:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyserviceRemoved(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="verifyserviceRemoved" duration-ms="698" started-at="2021-02-26T18:51:55 IST" data-provider="RemoveService" finished-at="2021-02-26T18:51:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apply Out Of Office]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Service Deleted Successfully]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyserviceRemoved -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="tearDown" is-config="true" duration-ms="680" started-at="2021-02-26T18:51:56 IST" finished-at="2021-02-26T18:51:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyserviceRemoved status=SUCCESS method=EmpserviceTestCase.verifyserviceRemoved(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:EmpRoleTestCase.EmpserviceTestCase@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:EmpRoleTestCase.EmpserviceTestCase@59494225]" name="endReport" is-config="true" duration-ms="26" started-at="2021-02-26T18:53:19 IST" finished-at="2021-02-26T18:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- EmpRoleTestCase.EmpserviceTestCase -->
+      <class name="EmpRoleTestCase.EmpApplyOutOfficeTestCase">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="setupExtentReport" is-config="true" duration-ms="4" started-at="2021-02-26T18:51:19 IST" finished-at="2021-02-26T18:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="setUp" is-config="true" duration-ms="8149" started-at="2021-02-26T18:52:52 IST" finished-at="2021-02-26T18:53:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyApplyOutOffice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="verifyApplyOutOffice" duration-ms="4990" started-at="2021-02-26T18:53:00 IST" data-provider="ApplyOutOffice" finished-at="2021-02-26T18:53:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9842568382]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Firstname_49 LastName_49]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[OutOfOffice]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Your out of office request has been submitted successfully.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyOutOffice -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="tearDown" is-config="true" duration-ms="618" started-at="2021-02-26T18:53:05 IST" finished-at="2021-02-26T18:53:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplyOutOffice status=SUCCESS method=EmpApplyOutOfficeTestCase.verifyApplyOutOffice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="setUp" is-config="true" duration-ms="8204" started-at="2021-02-26T18:53:06 IST" finished-at="2021-02-26T18:53:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCancelOutOfficeRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="verifyCancelOutOfficeRequest" duration-ms="4497" started-at="2021-02-26T18:53:14 IST" data-provider="CancelOutOffice" finished-at="2021-02-26T18:53:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tue, Mar 30, 2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your request has been cancelled successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelOutOfficeRequest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="tearDown" is-config="true" duration-ms="620" started-at="2021-02-26T18:53:18 IST" finished-at="2021-02-26T18:53:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelOutOfficeRequest status=SUCCESS method=EmpApplyOutOfficeTestCase.verifyCancelOutOfficeRequest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e]" name="endReport" is-config="true" duration-ms="33" started-at="2021-02-26T18:53:19 IST" finished-at="2021-02-26T18:53:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- EmpRoleTestCase.EmpApplyOutOfficeTestCase -->
+    </test> <!-- EmpRoleTest -->
+  </suite> <!-- Suite -->
+</testng-results>

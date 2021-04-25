@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Vivek\eclipse-workspace\HRMPortal\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.LoginTestCase" hash-for-method="assertEMPusername">assertEMPusername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpserviceTestCase" hash-for-method="enableNewService(Apply Out Of Office)">enableNewService(Apply Out Of Office)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyOutOfficeTestCase" hash-for-method="verifyApplyOutOffice(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office req...)">verifyApplyOutOffice(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office req...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyWFHTestCase" hash-for-method="verifyApplyWFH(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request ha...)">verifyApplyWFH(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request ha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyLeaveTestCase" hash-for-method="verifyCancelLeaveRequest(Pending, Sick, Your leave request has been canceled successfully)">verifyCancelLeaveRequest(Pending, Sick, Your leave request has been canceled successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyOutOfficeTestCase" hash-for-method="verifyCancelOutOfficeRequest(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully)">verifyCancelOutOfficeRequest(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyWFHTestCase" hash-for-method="verifyCancelWFHRequest(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully)">verifyCancelWFHRequest(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpApplyLeaveTestCase" hash-for-method="verifyLeaveApplied(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted s...)">verifyLeaveApplied(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpserviceTestCase" hash-for-method="verifyserviceEnabled(Apply Out Of Office, Apply Out Of Office/Work From Home, 9)">verifyserviceEnabled(Apply Out Of Office, Apply Out Of Office/Work From Home, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="EmpRoleTestCase.EmpserviceTestCase" hash-for-method="verifyserviceRemoved(Apply Out Of Office, Service Deleted Successfully, 9)">verifyserviceRemoved(Apply Out Of Office, Service Deleted Successfully, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EmpRoleTestCase.LoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertEMPusername">
+                  </a> <!-- assertEMPusername -->
+                  <span class="method-name">assertEMPusername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EmpRoleTestCase.EmpserviceTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enableNewService(Apply Out Of Office)">
+                  </a> <!-- enableNewService(Apply Out Of Office) -->
+                  <span class="method-name">enableNewService</span>
+                  <span class="parameters">(Apply Out Of Office)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyserviceEnabled(Apply Out Of Office, Apply Out Of Office/Work From Home, 9)">
+                  </a> <!-- verifyserviceEnabled(Apply Out Of Office, Apply Out Of Office/Work From Home, 9) -->
+                  <span class="method-name">verifyserviceEnabled</span>
+                  <span class="parameters">(Apply Out Of Office, Apply Out Of Office/Work From Home, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyserviceRemoved(Apply Out Of Office, Service Deleted Successfully, 9)">
+                  </a> <!-- verifyserviceRemoved(Apply Out Of Office, Service Deleted Successfully, 9) -->
+                  <span class="method-name">verifyserviceRemoved</span>
+                  <span class="parameters">(Apply Out Of Office, Service Deleted Successfully, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EmpRoleTestCase.EmpApplyLeaveTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelLeaveRequest(Pending, Sick, Your leave request has been canceled successfully)">
+                  </a> <!-- verifyCancelLeaveRequest(Pending, Sick, Your leave request has been canceled successfully) -->
+                  <span class="method-name">verifyCancelLeaveRequest</span>
+                  <span class="parameters">(Pending, Sick, Your leave request has been canceled successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLeaveApplied(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted s...)">
+                  </a> <!-- verifyLeaveApplied(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted s...) -->
+                  <span class="method-name">verifyLeaveApplied</span>
+                  <span class="parameters">(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EmpRoleTestCase.EmpApplyWFHTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplyWFH(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request ha...)">
+                  </a> <!-- verifyApplyWFH(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request ha...) -->
+                  <span class="method-name">verifyApplyWFH</span>
+                  <span class="parameters">(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request has been submitted successfully.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelWFHRequest(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully)">
+                  </a> <!-- verifyCancelWFHRequest(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully) -->
+                  <span class="method-name">verifyCancelWFHRequest</span>
+                  <span class="parameters">(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EmpRoleTestCase.EmpApplyOutOfficeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplyOutOffice(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office req...)">
+                  </a> <!-- verifyApplyOutOffice(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office req...) -->
+                  <span class="method-name">verifyApplyOutOffice</span>
+                  <span class="parameters">(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office request has been submitted successfully.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelOutOfficeRequest(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully)">
+                  </a> <!-- verifyCancelOutOfficeRequest(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully) -->
+                  <span class="method-name">verifyCancelOutOfficeRequest</span>
+                  <span class="parameters">(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Vivek\eclipse-workspace\HRMPortal\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;EmpRoleTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;EmpRoleTestCase.LoginTestCase&quot;/&gt;
+      &lt;class name=&quot;EmpRoleTestCase.EmpserviceTestCase&quot;/&gt;
+      &lt;class name=&quot;EmpRoleTestCase.EmpApplyLeaveTestCase&quot;/&gt;
+      &lt;class name=&quot;EmpRoleTestCase.EmpApplyWFHTestCase&quot;/&gt;
+      &lt;class name=&quot;EmpRoleTestCase.EmpApplyOutOfficeTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmpRoleTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EmpRoleTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyApplyWFH')
+data.setCell(0, 2, 'EmpRoleTestCase.EmpApplyWFHTestCase')
+data.setCell(0, 3, 7383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyApplyOutOffice')
+data.setCell(1, 2, 'EmpRoleTestCase.EmpApplyOutOfficeTestCase')
+data.setCell(1, 3, 4990);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLeaveApplied')
+data.setCell(2, 2, 'EmpRoleTestCase.EmpApplyLeaveTestCase')
+data.setCell(2, 3, 4907);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'assertEMPusername')
+data.setCell(3, 2, 'EmpRoleTestCase.LoginTestCase')
+data.setCell(3, 3, 4875);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCancelOutOfficeRequest')
+data.setCell(4, 2, 'EmpRoleTestCase.EmpApplyOutOfficeTestCase')
+data.setCell(4, 3, 4497);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCancelWFHRequest')
+data.setCell(5, 2, 'EmpRoleTestCase.EmpApplyWFHTestCase')
+data.setCell(5, 3, 3774);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCancelLeaveRequest')
+data.setCell(6, 2, 'EmpRoleTestCase.EmpApplyLeaveTestCase')
+data.setCell(6, 3, 2507);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enableNewService')
+data.setCell(7, 2, 'EmpRoleTestCase.EmpserviceTestCase')
+data.setCell(7, 3, 916);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyserviceRemoved')
+data.setCell(8, 2, 'EmpRoleTestCase.EmpserviceTestCase')
+data.setCell(8, 3, 698);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyserviceEnabled')
+data.setCell(9, 2, 'EmpRoleTestCase.EmpserviceTestCase')
+data.setCell(9, 3, 46);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyLeaveTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupExtentReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyOutOfficeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupExtentReport</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyWFHTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupExtentReport</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpserviceTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupExtentReport</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.LoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupExtentReport</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser(chrome)</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">assertEMPusername</span>
+                <span class="method-start">4261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=assertEMPusername status=SUCCESS method=LoginTestCase.assertEMPusername()[pri:0, in...)</span>
+                <span class="method-start">9137 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpserviceTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">9901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enableNewService(Apply Out Of Office)</span>
+                <span class="method-start">17652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=enableNewService status=SUCCESS method=EmpserviceTestCase.enableNewService(java.lan...)</span>
+                <span class="method-start">18570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">19266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyserviceEnabled(Apply Out Of Office, Apply Out Of Office/Work From Home, 9)</span>
+                <span class="method-start">27280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyserviceEnabled status=SUCCESS method=EmpserviceTestCase.verifyserviceEnabled(...)</span>
+                <span class="method-start">27326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">27987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyserviceRemoved(Apply Out Of Office, Service Deleted Successfully, 9)</span>
+                <span class="method-start">36002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyserviceRemoved status=SUCCESS method=EmpserviceTestCase.verifyserviceRemoved(...)</span>
+                <span class="method-start">36701 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyLeaveTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLeaveApplied(NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted s...)</span>
+                <span class="method-start">45361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyLeaveApplied status=SUCCESS method=EmpApplyLeaveTestCase.verifyLeaveApplied(j...)</span>
+                <span class="method-start">50268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">50955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelLeaveRequest(Pending, Sick, Your leave request has been canceled successfully)</span>
+                <span class="method-start">59603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCancelLeaveRequest status=SUCCESS method=EmpApplyLeaveTestCase.verifyCancelLe...)</span>
+                <span class="method-start">62110 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyWFHTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">62787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplyWFH(Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request ha...)</span>
+                <span class="method-start">71209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyApplyWFH status=SUCCESS method=EmpApplyWFHTestCase.verifyApplyWFH(java.lang.S...)</span>
+                <span class="method-start">78592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">79279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelWFHRequest(Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully)</span>
+                <span class="method-start">87892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCancelWFHRequest status=SUCCESS method=EmpApplyWFHTestCase.verifyCancelWFHReq...)</span>
+                <span class="method-start">91667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyOutOfficeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">92341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyApplyOutOffice(Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office req...)</span>
+                <span class="method-start">100490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyApplyOutOffice status=SUCCESS method=EmpApplyOutOfficeTestCase.verifyApplyOut...)</span>
+                <span class="method-start">105480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">106165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelOutOfficeRequest(Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully)</span>
+                <span class="method-start">114369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCancelOutOfficeRequest status=SUCCESS method=EmpApplyOutOfficeTestCase.verify...)</span>
+                <span class="method-start">118866 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyLeaveTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">119486 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyOutOfficeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">119711 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpApplyWFHTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">119744 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.EmpserviceTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">119771 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EmpRoleTestCase.LoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">119797 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

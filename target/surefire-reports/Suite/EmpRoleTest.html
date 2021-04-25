@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  EmpRoleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EmpRoleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 26 18:51:19 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>119 seconds (119832 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='EmpRoleTestCase.LoginTestCase.assertEMPusername()'><b>assertEMPusername</b><br>Test class: EmpRoleTestCase.LoginTestCase</td>
+<td></td>
+<td>4</td>
+<td>EmpRoleTestCase.LoginTestCase@6e06451e</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpserviceTestCase.enableNewService()'><b>enableNewService</b><br>Test class: EmpRoleTestCase.EmpserviceTestCase<br>Parameters: Apply Out Of Office</td>
+<td></td>
+<td>0</td>
+<td>EmpRoleTestCase.EmpserviceTestCase@59494225</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyOutOfficeTestCase.verifyApplyOutOffice()'><b>verifyApplyOutOffice</b><br>Test class: EmpRoleTestCase.EmpApplyOutOfficeTestCase<br>Parameters: Mar, 30, Mar, 30, 9842568382, Chennai, Firstname_49 LastName_49, OutOfOffice, Your out of office request has been submitted successfully.</td>
+<td></td>
+<td>4</td>
+<td>EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyWFHTestCase.verifyApplyWFH()'><b>verifyApplyWFH</b><br>Test class: EmpRoleTestCase.EmpApplyWFHTestCase<br>Parameters: Jan, 18, Jan, 18, 9841568382, Firstname_56 LastName_56, WorkFromHome, Your Work From Home request has been submitted successfully.</td>
+<td></td>
+<td>7</td>
+<td>EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyLeaveTestCase.verifyCancelLeaveRequest()'><b>verifyCancelLeaveRequest</b><br>Test class: EmpRoleTestCase.EmpApplyLeaveTestCase<br>Parameters: Pending, Sick, Your leave request has been canceled successfully</td>
+<td></td>
+<td>2</td>
+<td>EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyOutOfficeTestCase.verifyCancelOutOfficeRequest()'><b>verifyCancelOutOfficeRequest</b><br>Test class: EmpRoleTestCase.EmpApplyOutOfficeTestCase<br>Parameters: Pending, Tue, Mar 30, 2021, Your request has been cancelled successfully</td>
+<td></td>
+<td>4</td>
+<td>EmpRoleTestCase.EmpApplyOutOfficeTestCase@cb644e</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyWFHTestCase.verifyCancelWFHRequest()'><b>verifyCancelWFHRequest</b><br>Test class: EmpRoleTestCase.EmpApplyWFHTestCase<br>Parameters: Waiting for Reporting approval, Mon, Jan 18, 2021, Your request has been cancelled successfully</td>
+<td></td>
+<td>3</td>
+<td>EmpRoleTestCase.EmpApplyWFHTestCase@5cb9f472</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpApplyLeaveTestCase.verifyLeaveApplied()'><b>verifyLeaveApplied</b><br>Test class: EmpRoleTestCase.EmpApplyLeaveTestCase<br>Parameters: NO, Sick, Mar, 30, Mar, 30, Firstname_56 LastName_56, Leave, Your leave request has been submitted successfully</td>
+<td></td>
+<td>4</td>
+<td>EmpRoleTestCase.EmpApplyLeaveTestCase@6e1567f1</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpserviceTestCase.verifyserviceEnabled()'><b>verifyserviceEnabled</b><br>Test class: EmpRoleTestCase.EmpserviceTestCase<br>Parameters: Apply Out Of Office, Apply Out Of Office/Work From Home, 9</td>
+<td></td>
+<td>0</td>
+<td>EmpRoleTestCase.EmpserviceTestCase@59494225</td></tr>
+<tr>
+<td title='EmpRoleTestCase.EmpserviceTestCase.verifyserviceRemoved()'><b>verifyserviceRemoved</b><br>Test class: EmpRoleTestCase.EmpserviceTestCase<br>Parameters: Apply Out Of Office, Service Deleted Successfully, 9</td>
+<td></td>
+<td>0</td>
+<td>EmpRoleTestCase.EmpserviceTestCase@59494225</td></tr>
+</table><p>
+</body>
+</html>

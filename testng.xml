@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name ="Listeners.Transformer"></listener>
+</listeners>
+	<test name="EmpRoleTest">
+		<parameter name="browser" value="chrome" />
+		
+		<classes>
+
+		   <class name="EmpRoleTestCase.LoginTestCase" />
+			<class name="EmpRoleTestCase.EmpserviceTestCase" />
+			<class name="EmpRoleTestCase.EmpApplyLeaveTestCase" />
+			<class name="EmpRoleTestCase.EmpApplyWFHTestCase" />
+			<class name="EmpRoleTestCase.EmpApplyOutOfficeTestCase" />
+			<class name="EmpRoleTestCase.EmpViewEditTimeSheetTestCase"/>
+			<class name="EmpRoleTestCase.EmpSearchSkillTestCase"/>
+		    <class name="EmpRoleTestCase.EmpViewHolidayTestCase"/>
+            
+            
+           <class name="EmpRoleTestCase.EmpApplyTimeSheetTestCase" />
+           <class name="EmpRoleTestCase.EmpAddNewTrainingTestCase" />
+           <class name="EmpRoleTestCase.EmpAddNewSkillTestCase"/>
+            <class name="EmpRoleTestCase.EmpConfRoomBookTestCase"/>
+           <class name="EmpRoleTestCase.EmpDeviceRequestTestCase"/>
+          <class name="EmpRoleTestCase.EmpITRequestTestCase"/>
+		</classes>
+
+	</test>
+</suite> 
